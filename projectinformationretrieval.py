@@ -5,7 +5,6 @@ df2 = pd.read_csv('ratings.csv')
 
 df = pd.merge(df1, df2, on='movieId')
 df
-
 columns = ['userId', 'movieId', 'rating']
 df_model = pd.DataFrame(df, columns = columns)
 df_model
