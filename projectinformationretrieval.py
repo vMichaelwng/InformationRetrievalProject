@@ -14,10 +14,6 @@ import pandas as pd
 df1 = pd.read_csv('movies.csv')
 df2 = pd.read_csv('ratings.csv')
 
-df1
-
-df2
-
 df = pd.merge(df1, df2, on='movieId')
 df
 
